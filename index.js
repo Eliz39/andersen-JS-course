@@ -8,7 +8,7 @@ if(isNaN(Number(input11)) || isNaN(Number(input12))) {
   console.log(Number(input11).toString(Number(input12)))
 }
 
-// task-1
+// task-2
 const input21 = prompt('Задание 2. Введите число 1');
 
 if(isNaN(Number(input11))) {

@@ -40,28 +40,28 @@ class Calculator {
     this.num1 = num1;
     this.num2 = num2;
   }
-  set setX(num) {
+  setX = (num) => {
     if(!num || typeof num !== 'number' || !isFinite(num)) {
       throw new Error('');
     }
     this.num1 = num;
   }
-  set setY(num) {
+  setY = (num) => {
     if(!num || typeof num !== 'number' ) {
       throw new Error('');
     }
     this.num2 = num;
   }
-  logSum() {
+  logSum = () => {
     console.log(this.num1 + this.num2);
   }
-  logMul() {
+  logMul = () => {
     console.log(this.num1 * this.num2);
   }
-  logSub() {
+  logSub = () => {
     console.log(this.num1 - this.num2);
   }
-  logDiv() {
+  logDiv = () => {
     if(this.num2 === 0) {
       throw new Error('');
     }
